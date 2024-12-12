@@ -56,7 +56,7 @@ A quiz web application where users can participate in a quiz session, answer que
 1. Clone the repository:
 
     ```bash
-    $ git clone https://github.com/YourUsername/quiz-app.git
+    $ git clone https://github.com/Ashish23jun/quiz-app.git
     $ cd quiz-app
     ```
 
