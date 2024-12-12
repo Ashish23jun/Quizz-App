@@ -1,7 +1,10 @@
-# Responsive Quiz App Using Spring Boot
+# Quiz App
 
-MCQ based quiz application using Spring Boot, Spring Data JPA, H2 DATABASE, Thymeleaf and Bootstrap 5.
-This project was made as a part of my channel's Spring Boot Tutorial series in Bangla.
+A quiz web application where users can participate in a quiz session, answer questions, and view their scores. Developed using Spring Boot, H2 Database, HTML, CSS, JavaScript, and Bootstrap.
+
+*API, CRUD, Spring Boot, H2 Database, Quiz App.*
+
+
 
 ---
 
@@ -23,6 +26,79 @@ This project was made as a part of my channel's Spring Boot Tutorial series in B
 
 ![Score Board](https://raw.githubusercontent.com/DevRezaur/spring-boot-quiz-app/main/screenshots/Score%20Board.PNG)
 
+
 ---
 
-### Have a nice day
+### Table of contents 📃
+
+- [Quiz App](#quiz-app)
+  - [Table of contents 📃](#table-of-contents-)
+  - [Starting 🚀](#starting-)
+    - [Pre-requirements 📋](#pre-requirements-)
+    - [Installation 🔧](#installation-)
+  - [API Endpoints](#api-endpoints-)
+  - [Built with 🛠️](#built-with-️)
+
+---
+
+## Starting 🚀
+
+### Pre-requirements 📋
+
+* [Java JDK 17+](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html)
+* [Maven](https://maven.apache.org/)
+* [Git](https://git-scm.com/)
+
+---
+
+### Installation 🔧
+
+1. Clone the repository:
+
+    ```bash
+    $ git clone https://github.com/YourUsername/quiz-app.git
+    $ cd quiz-app
+    ```
+
+2. Build and run the application:
+
+    ```bash
+    # Build the application
+    $ mvn clean install
+
+    # Run the application
+    $ mvn spring-boot:run
+    ```
+
+3. Access the application in your browser at [http://localhost:8080](http://localhost:8080).
+
+---
+
+## Built with 🛠️
+
+* [Spring Boot](https://spring.io/projects/spring-boot) - Backend framework  
+* [H2 Database](https://www.h2database.com/) - In-memory database  
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - Frontend structure  
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Styling  
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Frontend logic  
+* [Bootstrap](https://getbootstrap.com/) - Frontend framework  
+
+---
+
+## API Endpoints
+1. **Start Quiz Session**
+
+   **Endpoint:** `POST /quiz`  
+   
+2. **Submit Answer**
+
+   **Endpoint:** `POST /answer`
+
+    
+3. **Get Quiz Result**
+
+   **Endpoint:** `POST /results`
+---
+
+
+   
